@@ -17,9 +17,9 @@ public class Main {
             while (reader.hasNextLine()) {
                 String num = reader.nextLine();
                 if (isPrimeNumber(Integer.parseInt(num))) {
-                    writer.append(prime + "\n");
+                    writer.write(prime + "\n");
                 } else {
-                    writer.append(not + "\n");
+                    writer.write(not + "\n");
                 }
             }
         }
